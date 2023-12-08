@@ -1,0 +1,34 @@
+.content .product-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.content {
+  width: 49%;
+}
+.content .product-details {
+  width: 40%;
+}
+.content img {
+  width: 90%;
+  height: 144px;
+  object-fit: contain;
+}
+.content .product-list-true {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.content .product-details-true {
+  width: 46%;
+}
+.content .product-details .product-name-true,
+.product-ingredients-true,
+.product-price-true {
+  color: #00000070;
+}
+.content .product-list-true .img > img {
+  filter: grayscale(1);
+}
